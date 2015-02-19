@@ -12,6 +12,7 @@
 #include "../JuceLibraryCode/JuceHeader.h"
 
 #include "AudioInputToOutput.h"
+#include "Node_Processor_Reverb.h"
 
 
 //==============================================================================
@@ -37,6 +38,12 @@ public:
     
     AudioProcessorGraph _audioProcessorGraph;
     AudioProcessorPlayer _audioProcessorPlayer;
+    
+    //-------- Nodes
+    //Processors
+    ScopedPointer<Node_Processor_Reverb>  _reverbProcessor;
+    
+    
 
 private:
     //==============================================================================

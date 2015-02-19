@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="BhKOMv" name="IceBox_Desktop_00" projectType="guiapp" version="1.0.0"
-              bundleIdentifier="com.yourcompany.IceBox_Desktop_00" includeBinaryInAppConfig="1"
+              bundleIdentifier="com.emergent-io.IceBox_Desktop_00" includeBinaryInAppConfig="1"
               jucerVersion="3.1.0" companyName="emergent.io">
   <MAINGROUP id="CZ1Xt5" name="IceBox_Desktop_00">
     <GROUP id="{3E411F3B-AEBC-1598-E030-17569C18B7D9}" name="Source">
+      <FILE id="ETyzxI" name="Audio_Node_Processor.cpp" compile="1" resource="0"
+            file="Source/Audio_Node_Processor.cpp"/>
+      <FILE id="KvA6qd" name="Audio_Node_Processor.h" compile="0" resource="0"
+            file="Source/Audio_Node_Processor.h"/>
       <FILE id="WrpLzm" name="AudioInputToOutput.cpp" compile="1" resource="0"
             file="Source/AudioInputToOutput.cpp"/>
       <FILE id="pspxKo" name="AudioInputToOutput.h" compile="0" resource="0"
@@ -24,20 +28,20 @@
                        isDebug="0" optimisation="2" targetName="IceBox_Desktop_00"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
-        <MODULEPATH id="juce_core" path="../JUCE/JUCE-3.1.1/modules"/>
-        <MODULEPATH id="juce_events" path="../JUCE/JUCE-3.1.1/modules"/>
-        <MODULEPATH id="juce_graphics" path="../JUCE/JUCE-3.1.1/modules"/>
-        <MODULEPATH id="juce_data_structures" path="../JUCE/JUCE-3.1.1/modules"/>
-        <MODULEPATH id="juce_gui_basics" path="../JUCE/JUCE-3.1.1/modules"/>
-        <MODULEPATH id="juce_gui_extra" path="../JUCE/JUCE-3.1.1/modules"/>
-        <MODULEPATH id="juce_cryptography" path="../JUCE/JUCE-3.1.1/modules"/>
-        <MODULEPATH id="juce_video" path="../JUCE/JUCE-3.1.1/modules"/>
-        <MODULEPATH id="juce_opengl" path="../JUCE/JUCE-3.1.1/modules"/>
-        <MODULEPATH id="juce_audio_basics" path="../JUCE/JUCE-3.1.1/modules"/>
-        <MODULEPATH id="juce_audio_devices" path="../JUCE/JUCE-3.1.1/modules"/>
-        <MODULEPATH id="juce_audio_formats" path="../JUCE/JUCE-3.1.1/modules"/>
-        <MODULEPATH id="juce_audio_processors" path="../JUCE/JUCE-3.1.1/modules"/>
-        <MODULEPATH id="juce_audio_utils" path="../JUCE/JUCE-3.1.1/modules"/>
+        <MODULEPATH id="juce_core" path="../../../JUCE/JUCE-3.1.1/modules"/>
+        <MODULEPATH id="juce_events" path="../../../JUCE/JUCE-3.1.1/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../JUCE/JUCE-3.1.1/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../JUCE/JUCE-3.1.1/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../JUCE/JUCE-3.1.1/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../JUCE/JUCE-3.1.1/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../JUCE/JUCE-3.1.1/modules"/>
+        <MODULEPATH id="juce_video" path="../../../JUCE/JUCE-3.1.1/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../JUCE/JUCE-3.1.1/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../JUCE/JUCE-3.1.1/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../JUCE/JUCE-3.1.1/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../JUCE/JUCE-3.1.1/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../JUCE/JUCE-3.1.1/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../JUCE/JUCE-3.1.1/modules"/>
       </MODULEPATHS>
     </XCODE_MAC>
   </EXPORTFORMATS>

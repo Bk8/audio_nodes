@@ -8,7 +8,7 @@
     <key>CFBundleIconFile</key>
     <string></string>
     <key>CFBundleIdentifier</key>
-    <string>com.yourcompany.IceBox_Desktop_00</string>
+    <string>com.emergent-io.IceBox_Desktop_00</string>
     <key>CFBundleName</key>
     <string>IceBox_Desktop_00</string>
     <key>CFBundlePackageType</key>
